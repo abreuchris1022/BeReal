@@ -19,4 +19,7 @@ struct Post: ParseObject {
     var user: User?
     var imageFile: ParseFile?
     var caption: String?
+
+    // Location where the photo was taken
+    var location: ParseGeoPoint?
 }

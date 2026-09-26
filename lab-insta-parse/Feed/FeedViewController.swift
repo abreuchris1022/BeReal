@@ -35,9 +35,19 @@ class FeedViewController: UIViewController {
 
     private func queryPosts() {
 
+        // Get the date from 24 hours ago
+        let yesterdayDate = Calendar.current.date(
+            byAdding: .day,
+            value: -1,
+            to: Date()
+        )!
+
+        // Get the 10 most recent posts from the last 24 hours
         let query = Post.query()
             .include("user")
+            .where("createdAt" >= yesterdayDate)
             .order([.descending("createdAt")])
+            .limit(10)
 
         query.find { [weak self] result in
             DispatchQueue.main.async {
