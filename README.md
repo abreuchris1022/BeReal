@@ -1,10 +1,10 @@
 # Project 3 - BeReal
 
-Submitted by: **Christopher Abreu**
+Submitted by: Christopher Abreu
 
-**BeReal** is an app that allows users to share photos with other users. Users must upload their own photo before they can clearly see other users' posts. Posts also include the time and location of the photo.
+BeReal is an app that allows users to share photos with other users. Users must upload their own photo before they can clearly see other users' posts. Posts also include the time and location of the photo.
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
@@ -15,12 +15,12 @@ The following **required** functionality is completed:
 - [x] Posts have a time and location attached to them
 - [x] Users are not able to see other users’ photos until they upload their own.
 
-The following **optional** features are implemented:
+The following optional features are implemented:
 
 - [ ] Posts have a comment section, which displays the commenter’s username and comment context
 - [ ] User receives notification when it is time to post
 
-The following **additional** features are implemented:
+The following additional features are implemented:
 
 - [x] Posts are limited to the 10 most recent posts from the last 24 hours
 - [x] Other users' photos are blurred until the current user uploads their own photo
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-[Add video walkthrough here]
+(https://youtu.be/1hzxslaOvkw)
 
 ## Notes
 
