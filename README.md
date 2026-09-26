@@ -1,40 +1,38 @@
-# Project 2 - BeReal
+# Project 3 - BeReal
 
-Submitted by: Christopher Abreu
+Submitted by: **Christopher Abreu**
 
-BeReal is an app where users can create an account, log in, share photos with a caption, and view posts from other users in a feed.
+**BeReal** is an app that allows users to share photos with other users. Users must upload their own photo before they can clearly see other users' posts. Posts also include the time and location of the photo.
 
-Time spent: 8 hours spent in total
+Time spent: **X** hours spent in total
 
 ## Required Features
 
-The following functionality is completed:
+The following **required** functionality is completed:
 
-- [x] Users see an app icon in the home screen and a styled launch screen.
-- [x] User can register a new account
-- [x] User can log in with newly created account
-- [x] App has a feed of posts when user logs in
-- [x] User can upload a new post which takes in a picture from photo library and an optional caption
-- [x] User is able to logout
+- [ ] User can launch camera to take photo instead of photo library
+  - [x] Users without iPhones to demo this feature can manually add unique photos to their simulator’s Photos app
+- [x] Posts have a time and location attached to them
+- [x] Users are not able to see other users’ photos until they upload their own.
 
-The following optional features are implemented:
+The following **optional** features are implemented:
 
-- [ ] Users can pull to refresh their feed and see a loading indicator
-- [ ] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed
-- [x] User stays logged in when app is closed and open again
+- [ ] Posts have a comment section, which displays the commenter’s username and comment context
+- [ ] User receives notification when it is time to post
 
-The following additional features are implemented:
+The following **additional** features are implemented:
 
-- [x] Customized BeReal app icon and branding
+- [x] Posts are limited to the 10 most recent posts from the last 24 hours
+- [x] Other users' photos are blurred until the current user uploads their own photo
+- [x] Users can add a caption to their post
 
 ## Video Walkthrough
 
-https://youtu.be/57XU7fvC3KI
+[Add video walkthrough here]
 
 ## Notes
 
-One challenge I had was setting up Parse and making sure the app was connected correctly to Back4App. I also had to make sure the login and logout worked correctly and that posts would save and show up in the feed.
+One challenge was getting the photo's location from its metadata and saving it with the post. I also had to make sure other users' photos stayed blurred until the current user uploaded their own photo.
 
 ## License
 
